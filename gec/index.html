@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Multilingual IndicGEC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+Team Horizon at BHASHA Task 1: Multilingual IndicGEC with Transformer-based Grammatical Error Correction Models
+</h1>
+
+<p class="authors">
+Manav Dhamecha · Gaurav Damor · Sunil Choudhary · Pruthwik Mishra
+</p>
+
+<p class="affiliation">
+Sardar Vallabhbhai National Institute of Technology, Surat
+</p>
+
+<div class="buttons">
+<a href="paper.pdf"><button>📄 Paper</button></a>
+<a href="#"><button>💻 Code</button></a>
+</div>
+
+<h2>Abstract</h2>
+
+<p>
+We explore transformer-based multilingual models (mT5-small and IndicBART)
+for grammatical error correction across five Indic languages: Bangla,
+Hindi, Tamil, Telugu, and Malayalam. To address limited annotated data,
+we introduce a linguistically informed synthetic error injection pipeline
+that generates realistic grammatical errors across multiple linguistic
+categories.
+</p>
+
+<h2>Method</h2>
+
+<p>
+Our approach combines multilingual transformer fine-tuning with
+synthetic data augmentation. The pipeline introduces errors such as
+spelling, grammatical agreement, missing tokens, punctuation,
+semantic substitutions, and structural inconsistencies.
+</p>
+
+<h2>Results</h2>
+
+<table>
+<tr>
+<th>Language</th>
+<th>GLEU Score</th>
+</tr>
+<tr><td>Tamil</td><td>86.03</td></tr>
+<tr><td>Malayalam</td><td>84.36</td></tr>
+<tr><td>Bangla</td><td>82.69</td></tr>
+<tr><td>Hindi</td><td>80.44</td></tr>
+<tr><td>Telugu</td><td>72.00</td></tr>
+</table>
+
+<h2>Citation</h2>
+
+<pre>
+@inproceedings{dhamecha2025indicgec,
+title={Multilingual IndicGEC with Transformer-based GEC Models},
+author={Dhamecha, Manav and Damor, Gaurav and
+Choudhary, Sunil and Mishra, Pruthwik},
+booktitle={BHASHA 2025 Workshop},
+year={2025}
+}
+</pre>
+
+</div>
+
+</body>
+</html>
